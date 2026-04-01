@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import useAuthStore from './useAuthStore'
-import ProtectedRoute from './components/ProtectedRoute'
-import Sidebar from './components/Sidebar'
-import Header from './components/Header'
-import Login from './Pages/Login'
-import Home from './Pages/Home'
-import Reports from './Pages/Reports'
-import Users from './Pages/Users'
-import Settings from './Pages/Settings'
+import ProtectedRoute from './ProtectedRoute'
+import Sidebar from './Sidebar'
+import Header from './Header'
+import Login from './Login'
+import Home from './Home'
+import Reports from './Reports'
+import Users from './Users'
+import Settings from './Settings'
 
 function DashboardLayout() {
   return (
