@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import useAuthStore from './Store/useAuthStore'
+import useAuthStore from './useAuthStore'
 import ProtectedRoute from './components/ProtectedRoute'
 import Sidebar from './components/Sidebar'
 import Header from './components/Header'
