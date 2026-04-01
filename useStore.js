@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 
-const useStore = create((set) => ({
+const usestore = create((set) => ({
   // الـ State
   user: { name: 'محمد', role: 'Admin' },
   notifications: 3,
