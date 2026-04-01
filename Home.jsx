@@ -1,6 +1,6 @@
-import StatsCard from '../components/StatsCard'
-import SalesChart from '../components/SalesChart'
-import OrdersTable from '../components/OrdersTable'
+import StatsCard from './StatsCard'
+import SalesChart from './SalesChart'
+import OrdersTable from './OrdersTable'
 
 const stats = [
   { title: 'إجمالي المبيعات', value: '24,500 ج', icon: '💰', color: '#3b82f6', change: 12 },
