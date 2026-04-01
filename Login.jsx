@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import useAuthStore from '../useAuthStore'
+import useAuthStore from './useAuthStore'
 
 // بيانات تجريبية
 const USERS = [
