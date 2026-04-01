@@ -1,4 +1,4 @@
-import useAuthStore from './useAuthStore'
+import useAuthStore from '../useAuthStore'
 import { useNavigate } from 'react-router-dom'
 
 function Header() {
